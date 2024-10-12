@@ -65,7 +65,7 @@ Just make a skeleton that allow me to ~~turn base64 image to actual image data, 
       const _0x3577d3 = _0x1cd1c9.width / _0x2845ef;
       const _0x1ac094 = _0x1cd1c9.height / _0x2845ef;
       _0x1cd1c9.width = "width_goes_here"
-	  _0x1cd1c9.height = "height_goes_here"
+      _0x1cd1c9.height = "height_goes_here"
       $.ajax({
         type: "POST",
         url: "/gimmicks/canvas/2",
@@ -84,7 +84,7 @@ Just make a skeleton that allow me to ~~turn base64 image to actual image data, 
 (function() {
     'use strict';
 	
-	// took me three hours for this code
+    // took me three hours for this code
     const observer = new MutationObserver((mutations) => {
         mutations.forEach((mutation) => {
             if (mutation.type === 'childList') {
