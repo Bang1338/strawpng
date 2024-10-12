@@ -45,10 +45,10 @@ It should have this file:
 ### Now you can go to someone strawpage and post image.
 
 ## How it work?
-See HOWITWORK.md
+See [HOWITWORK.md](https://github.com/Bang1338/strawpng/blob/main/docs/HOWITWORK.md)
 
 ## Advanced and what can I do?
-See ADVANCED.md
+See [ADVANCED.md](https://github.com/Bang1338/strawpng/blob/main/docs/ADVANCED.md)
 
 ## TODO
 - Optimize vector data

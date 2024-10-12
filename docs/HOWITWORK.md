@@ -33,6 +33,10 @@ In picasso v1, they just:
 
 Final image data (obfuscated variable name): `_0x192cea`
 
+<p align="center">
+  <img src="https://github.com/Bang1338/strawpng/raw/refs/heads/main/docs/hiw-img1.png">
+</p>
+
 ## picasso v2
 - aka `/gimmicks/canvas/2`
 
@@ -47,6 +51,10 @@ Final data (obfuscated variable name):
 - Width, height: `_0x1cd1c9` (`.width`, `.height`)
 - Reduce size(?): `_0x2845ef`
 
+<p align="center">
+  <img src="https://github.com/Bang1338/strawpng/raw/refs/heads/main/docs/hiw-img3.png">
+</p>
+
 ## Rendering
 - picasso v1: local (aka when you draw)
 - picasso v2: server (aka server render the image)
@@ -54,6 +62,12 @@ Final data (obfuscated variable name):
 ## StrawPNG - My approach
 #### Picasso v1 (patched)
 Just make a skeleton that allow me to ~~turn base64 image to actual image data, then put it somewhere~~ replace base64 image data
+
+But in early day, I used it to send to ummmmm my own chat message instead
+
+<p align="center">
+  <img src="https://github.com/Bang1338/strawpng/raw/refs/heads/main/docs/hiw-img2.png">
+</p>
 
 #### Picasso v2
 1. Replace entire script with attached value

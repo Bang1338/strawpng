@@ -36,6 +36,10 @@ The `website` is `data-website-id` script tag.
 <script defer="" src="https://notebook.straw.page" data-website-id="12345aef-6789-dead-beef-0123456789bc"></script>
 ```
 
+<p align="center">
+  <img src="https://github.com/Bang1338/strawpng/raw/refs/heads/main/docs/adv-img1.png">
+</p>
+
 #### Stage 2 (not working)
 Extremely simple... maybe not.  
 ```
