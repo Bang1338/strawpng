@@ -13,6 +13,17 @@ Semi-auto, dynamic strawpage image sender
 ## Quick note
 * This is not for mobile user (except if you're Termux skid)
 * You need at least 3 braincells
+* [Don't be a dick.](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk)
+
+## Why I did this in first place?
+Because strawpage's picasso don't have autosave like most ibispaint artist do, so waste a time was a thing. So here, I did a thing.
+
+## What I shouldn't do?
+- To avoid [osman (creator of strawpage)](https://osman.straw.page) patch or remove picasso, you mustn't:
+1. Spamming and spreading malicious content
+2. "NSFW Jumpscare" (or NSFW/NSFL)
+3. Trolling
+4. Advertising
 
 ## How to use?
 ### Install Python
@@ -44,11 +55,25 @@ It should have this file:
 
 ### Now you can go to someone strawpage and post image.
 
+## Does it work?
+Demo: 727 WYSI
+
+- [starguestdonna](https://x.com/starguestdonna/status/1844172291317563839)
+- [republicsglory](https://x.com/republicsglory/status/1844175275111874867)
+- [tigerfeathers](https://x.com/tigerfeathers/status/1844186919410041090)
+- [mahimahimeghan](https://x.com/mahimahimeghan/status/1844965424330309645)
+- Few people in nekoweb Discord
+
 ## How it work?
 See [HOWITWORK.md](https://github.com/Bang1338/strawpng/blob/main/docs/HOWITWORK.md)
 
 ## Advanced and what can I do?
 See [ADVANCED.md](https://github.com/Bang1338/strawpng/blob/main/docs/ADVANCED.md)
 
+## Note
+1. If you want to change image, repeat from `"Composing" Image data` to `Start a hook loader server`
+2. **This is not for weak computer, __require at least 6GB of RAM__** (or 3 extra GB of swap memory if 4GB I guess, sorry HDD user).
+
 ## TODO
 - Optimize vector data
+- Restart server on base64/HW data change
