@@ -76,4 +76,8 @@ See [ADVANCED.md](https://github.com/Bang1338/strawpng/blob/main/docs/ADVANCED.m
 
 ## TODO
 - Optimize vector data
-- Restart server on base64/HW data change
+- ~~Restart server on base64/HW data change~~ - it did.
+- Fix more bug
+
+## Fact
+There was a [userscript](https://greasyfork.org/en/scripts/501886-strawpage-image-uploader/code) for picasso v1 that allow you to send image
