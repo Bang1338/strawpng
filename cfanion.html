@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFanion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 500px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .output {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        input {
+            width: 200px;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CFanion (for StrawPNG)</h1>
+    
+    <textarea id="cookie" placeholder="Paste your cURL (bash) command here..."></textarea>
+    
+    <div class="output">
+        <input id="cookie1-output" type="text" placeholder="SPID" readonly>
+        <input id="cookie2-output" type="text" placeholder="cf_clearance" readonly>
+        <input id="cfanation-output" type="text" placeholder="cfanation (final output)" readonly>
+    </div>
+
+    <script>
+        function extractCookieHeader(curlCommand) {
+            const cookieMatch = curlCommand.match(/-H\s+'cookie:\s*([^']+)'/i);
+            return cookieMatch ? cookieMatch[1] : null;
+        }
+
+        function getSPIDFromCurl(curlCommand) {
+            const cookieHeader = extractCookieHeader(curlCommand);
+            if (cookieHeader) {
+                const cookies = cookieHeader.split('; ');
+                const SPIDCookie = cookies.find(cookie => cookie.startsWith('SPID='));
+                if (SPIDCookie) {
+                    return SPIDCookie.split('=')[1];
+                }
+            }
+            return null;
+        }
+
+        function getcf_clearanceFromCurl(curlCommand) {
+            const cookieHeader = extractCookieHeader(curlCommand);
+            if (cookieHeader) {
+                const cookies = cookieHeader.split('; ');
+                const cf_clearanceCookie = cookies.find(cookie => cookie.startsWith('cf_clearance='));
+                if (cf_clearanceCookie) {
+                    return cf_clearanceCookie.split('=')[1];
+                }
+            }
+            return null;
+        }
+
+        document.querySelector('#cookie').oninput = function (e) {
+            const c1 = getSPIDFromCurl(e.target.value);
+            const c2 = getcf_clearanceFromCurl(e.target.value);
+            const cfanation = (c1 || '') + '|' + (c2 || '');
+            document.querySelector('#cookie1-output').value = c1 || '...';
+            document.querySelector('#cookie2-output').value = c2 || '...';
+            document.querySelector('#cfanation-output').value = cfanation || '...';
+        };
+    </script>
+
+</body>
+</html>
