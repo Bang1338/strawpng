@@ -2,7 +2,8 @@
 ### Reason:
 ![image](https://github.com/user-attachments/assets/1c5aef27-992c-41f4-9e22-344c1c731f92)
 
-- StrawPNG will continue after StrawPage v3.
+- This is why recently any Strawpage site don't receive drawing gimmick (idk since when)
+- StrawPNG will continue after Strawpage v3. It will be almost auto and recode in C# (or stick with Python)
 
 <h1 align="center">
 StrawPNG
