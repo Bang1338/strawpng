@@ -47,6 +47,9 @@ Final data (obfuscated variable name):
 - Width, height: `_0x1cd1c9` (`.width`, `.height`)
 - Reduce size(?): `_0x2845ef`
 
+## picasso v3
+Not published, but they improved the obfuscation and used Websocket.
+
 ## Rendering
 - picasso v1: local (aka when you draw)
 - picasso v2: server (aka server render the image)

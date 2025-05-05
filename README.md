@@ -5,6 +5,9 @@
 - This is why recently any Strawpage site don't receive drawing gimmick (idk since when)
 - StrawPNG will continue after Strawpage v3. It will be almost auto and recode in C# (or stick with Python)
 
+### Update
+- Since May 5th 2025, osman improved the obfuscation and used Websocket instead of POST.
+
 <h1 align="center">
 StrawPNG
 </h1>
@@ -82,9 +85,10 @@ See [ADVANCED.md](https://github.com/Bang1338/strawpng/blob/main/docs/ADVANCED.m
 2. **This is not for weak computer, __require at least 6GB of RAM__** (or 3 extra GB of swap memory if 4GB I guess, sorry HDD user).
 
 ## TODO
-- Optimize vector data
-- ~~Restart server on base64/HW data change~~ - it did.
-- Fix more bug
+- Handle Websocket on picasso v3
+- ~~Optimize vector data~~
+- ~~Restart server on base64/HW data change~~
+- ~~Fix more bug~~
 
 ## Fact
-There was a [userscript](https://greasyfork.org/en/scripts/501886-strawpage-image-uploader/code) for picasso v1 that allow you to send image
+There was a [userscript](https://greasyfork.org/en/scripts/501886-strawpage-image-uploader/code) for picasso v1 (Update: somehow `/canvas` without `/2` still work at that time before osman patched it) that allow you to send image
