@@ -48,11 +48,18 @@ Final data (obfuscated variable name):
 - Reduce size(?): `_0x2845ef`
 
 ## picasso v3
-Not published, but they improved the obfuscation and used Websocket.
+Not published, but they improved the obfuscation and used Websocket. Here's my **theory**:
+1. Create Websocket once user touch drawing gimmick for first time (this took a while)
+2. Write vector data in JSON everytime you touch, note that they will split JSON for server processing vector easier - **THEORY**
+3. Everytime you touch, encrypt JSON data with AES (or something else) - **THEORY**
+4. Once you send, they close the websocket.
+
+No final data yet
 
 ## Rendering
 - picasso v1: local (aka when you draw)
 - picasso v2: server (aka server render the image)
+- picasso v3: server (in real time)
 
 ## StrawPNG - My approach
 #### Picasso v1 (patched)
@@ -106,3 +113,4 @@ Just make a skeleton that allow me to ~~turn base64 image to actual image data, 
 ```
 4. Go to their strawpage, put any temporary drawing, send.
 
+#### Picasso v3 - No approach yet.
