@@ -66,7 +66,7 @@ No final data yet
 #### Picasso v1 (patched)
 Just make a skeleton that allow me to ~~turn base64 image to actual image data, then put it somewhere~~ replace base64 image data
 
-#### Picasso v2
+#### Picasso v2 (patched)
 1. Replace entire script with attached value
 ```js
     try {
