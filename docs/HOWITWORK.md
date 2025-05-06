@@ -53,6 +53,7 @@ Not published, but they improved the obfuscation and used Websocket. Here's my *
 2. Write vector data in JSON everytime you touch, note that they will split JSON for server processing vector easier - **THEORY**
 3. Everytime you touch, encrypt JSON data with AES (or something else) - **THEORY**
 4. Once you send, they close the websocket.
+5. Drawing gimmick(s) are sent to strawpage moderation. If it met the standard, they will approve to show it to user - **THEORY**
 
 No final data yet
 
