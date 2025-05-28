@@ -57,6 +57,8 @@ Not published, but they improved the obfuscation and used Websocket. Here's my *
 
 No final data yet
 
+We're coding a deobfuscator for Strawpage. Very powerful, but **not power of deobfuscation.**
+
 ## Rendering
 - picasso v1: local (aka when you draw)
 - picasso v2: server (aka server render the image)
