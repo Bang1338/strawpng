@@ -8,6 +8,9 @@
 ### Update
 - Since May 5th 2025, osman improved the obfuscation and used Websocket instead of POST.
 - Since May 6th 2025, osman published picasso v3, and maybe this is for testing.
+- idk when, osman decided to ban my account.
+<img width="304" height="495" alt="image" src="https://github.com/user-attachments/assets/2429ed76-cf56-4f77-8c36-5aea871b91ed" />
+
 
 <h1 align="center">
 StrawPNG
